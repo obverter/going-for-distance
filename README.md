@@ -47,7 +47,7 @@
 
 <h5 align="center">Max Scherzer Could've Thrown a Baseball from NYC to LA. And Then to Seattle.</h5>
 
-<iframe width='100%' height='400px' src="https://api.mapbox.com/styles/v1/obverter/cl5wpo4yj000a15oagau5m77f.html?title=false&access_token=pk.eyJ1Ijoib2J2ZXJ0ZXIiLCJhIjoiY2w1dHM1YWl5MDRndDNkbW95aWFoNHRiZSJ9.JjyrEbdkcdCpUHLeYoP4IA&zoomwheel=false#3.26/44.24/-102.53/0/9" title="Outdoors" style="border:none;"></iframe>
+<img src="https://api.mapbox.com/styles/v1/obverter/cl5wpo4yj000a15oagau5m77f.html?title=view&access_token=pk.eyJ1Ijoib2J2ZXJ0ZXIiLCJhIjoiY2w1dHM1YWl5MDRndDNkbW95aWFoNHRiZSJ9.JjyrEbdkcdCpUHLeYoP4IA&zoomwheel=true&fresh=true#3.26/43.81/-102.64/0/9">
 
 <!-- TABLE OF CONTENTS -->
 <details>
