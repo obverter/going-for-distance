@@ -45,9 +45,9 @@
   </p>
 </div>
 
-<h5 align="center">Max Scherzer Could've Thrown a Baseball from NYC to LA. And Then to Seattle.</h5>
+<h5 align="center">Max Scherzer Could've Thrown a Baseball from Cleveland to Seattle. And Then to San Francisco.</h5>
 
-<img src="https://api.mapbox.com/styles/v1/obverter/cl5wpo4yj000a15oagau5m77f.html?title=view&access_token=pk.eyJ1Ijoib2J2ZXJ0ZXIiLCJhIjoiY2w1dHM1YWl5MDRndDNkbW95aWFoNHRiZSJ9.JjyrEbdkcdCpUHLeYoP4IA&zoomwheel=true&fresh=true#3.26/43.81/-102.64/0/9">
+![Max's Journey](images/maxs_journey.png)
 
 <!-- TABLE OF CONTENTS -->
 <details>
