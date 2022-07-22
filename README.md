@@ -141,7 +141,7 @@ First, you'll need to clone the repo. Follow these instructions carefully.
 
 ## Roadmap
 
-- [ ] Revisit this project in np.random.default_rng().integers(low=1, high=12) months.
+- [ ] Revisit this project in `np.random.default_rng().integers(low=1, high=12)` months.
 
 See the [open issues](https://github.com/obverter/going-for-distance/issues) for a full list of proposed features (and known issues).
 
