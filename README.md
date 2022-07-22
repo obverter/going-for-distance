@@ -29,7 +29,7 @@
     <img src="images/maxinator.png">
   </a>
 
-<h3 align="center">Max Scherzer Could've Thrown a Baseball from Cleveland to Seattle. And Then to San Francisco.</h3>
+<h4 align="center">Max Scherzer Could've Thrown a Baseball from Cleveland to Seattle. And Then to San Francisco.</h4>
 
   <p align="center">
     Assuming, of course, that he used one baseball and threw each of his career's ~44,000 pitches at 45° up and toward yonder horizon.
@@ -45,9 +45,8 @@
   </p>
 </div>
 
-<h5 align="center">This is his journey.</h5>
+<h5 align="center">Yes, I did the math:</h5>
 
-<br />
   <a href="https://api.mapbox.com/styles/v1/obverter/cl5wpo4yj000a15oagau5m77f.html?title=view&access_token=pk.eyJ1Ijoib2J2ZXJ0ZXIiLCJhIjoiY2w1dHM1YWl5MDRndDNkbW95aWFoNHRiZSJ9.JjyrEbdkcdCpUHLeYoP4IA&zoomwheel=true&fresh=true#3.42/35.97/-94.89/0/9">
     <img src="images/maxs_journey.png">
   </a>
