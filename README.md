@@ -26,13 +26,13 @@
 <br />
 <div align="center">
   <a href="https://github.com/obverter/going-for-distance">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/maxinator.png">
   </a>
 
 <h3 align="center">Max Scherzer Could've Thrown a Baseball from New York to Los Angeles. And Then to Seattle.</h3>
 
   <p align="center">
-    It is said that baseball is a game of inches. But what if it were a game of pounds?
+    Max Scherzer Could've Thrown a Baseball from New York to Los Angeles. And Then to Seattle. Assuming, of course, that he used one baseball and threw each of his career's ~44,000 pitches at exactly 45° up from horizontal.
     <br />
     <a href="https://github.com/obverter/going-for-distance"><strong>Explore the docs »</strong></a>
     <br />
