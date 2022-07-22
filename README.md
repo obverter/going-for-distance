@@ -32,7 +32,7 @@
 <h3 align="center">Max Scherzer Could've Thrown a Baseball from NYC to LA. And Then to Seattle.</h3>
 
   <p align="center">
-    Max Scherzer Could've Thrown a Baseball from New York to Los Angeles. And Then to Seattle. Assuming, of course, that he used one baseball and threw each of his career's ~44,000 pitches at exactly 45° up from horizontal.
+    Assuming, of course, that he used one baseball and threw each of his career's ~44,000 pitches at a 45-degree angle toward yonder horizon.
     <br />
     <a href="https://github.com/obverter/going-for-distance"><strong>Explore the docs »</strong></a>
     <br />
