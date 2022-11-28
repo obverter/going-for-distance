@@ -59,10 +59,7 @@ def cart2pol(x, y, z=None):
     rho = np.hypot(x, y)
     theta = np.arctan2(y, x)
 
-    if z is None:
-        return theta, rho
-    else:
-        return theta, rho, z
+    return (theta, rho) if z is None else (theta, rho, z)
 
 
 def pol2cart(theta, rho, z=None):
@@ -77,10 +74,7 @@ def pol2cart(theta, rho, z=None):
     x = rho * np.cos(theta)
     y = rho * np.sin(theta)
 
-    if z is None:
-        return x, y
-    else:
-        return x, y, z
+    return (x, y) if z is None else (x, y, z)
 
 from numpy import linspace
 
@@ -113,7 +107,7 @@ def root_scalar(func, *args, **kwargs):
 
     returns: RootResults object
     """
-    bracket = kwargs.get('bracket', None)
+    bracket = kwargs.get('bracket')
     if bracket is None or len(bracket) != 2:
         msg = ("To run root_scalar, you have to provide a "
                "`bracket` keyword argument with a sequence "
@@ -154,7 +148,7 @@ def minimize_scalar(func, *args, **kwargs):
 
     returns: OptimizeResult object
     """
-    bounds = kwargs.get('bounds', None)
+    bounds = kwargs.get('bounds')
 
     if bounds is None or len(bounds) != 2:
         msg = ("To run maximize_scalar or minimize_scalar, "
@@ -280,7 +274,7 @@ def run_solve_ivp(system, slope_func, **options):
             raise (e)
 
     # get dense output unless otherwise specified
-    if not 't_eval' in options:
+    if 't_eval' not in options:
         underride(options, dense_output=True)
 
     # run the solver
@@ -415,8 +409,7 @@ def interpolate(series, **options):
     # call interp1d, which returns a new function object
     x = series.index
     y = series.values
-    interp_func = interp1d(x, y, **options)
-    return interp_func
+    return interp1d(x, y, **options)
 
 
 def interpolate_inverse(series, **options):
@@ -429,8 +422,7 @@ def interpolate_inverse(series, **options):
              from `b` to `a`
     """
     inverse = pd.Series(series.index, index=series.values)
-    interp_func = interpolate(inverse, **options)
-    return interp_func
+    return interpolate(inverse, **options)
 
 
 def gradient(series, **options):
@@ -686,8 +678,7 @@ def SweepSeries(*args, **kwargs):
 def show(obj):
     """Display a Series or Namespace as a DataFrame."""
     if isinstance(obj, pd.Series):
-        df = pd.DataFrame(obj)
-        return df
+        return pd.DataFrame(obj)
     elif hasattr(obj, '__dict__'):
         return pd.DataFrame(pd.Series(obj.__dict__),
                             columns=['value'])
@@ -758,10 +749,7 @@ def vector_hat(v):
     """
     # check if the magnitude of the Quantity is 0
     mag = vector_mag(v)
-    if mag == 0:
-        return v
-    else:
-        return v / mag
+    return v if mag == 0 else v / mag
 
 
 def vector_perp(v):
@@ -791,10 +779,7 @@ def vector_cross(v, w):
     """
     res = np.cross(v, w)
 
-    if len(v) == 3:
-        return Vector(*res)
-    else:
-        return res
+    return Vector(*res) if len(v) == 3 else res
 
 
 def vector_proj(v, w):
